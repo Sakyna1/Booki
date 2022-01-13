@@ -1,0 +1,33 @@
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .searchFilters {
+        flex-wrap: wrap;
+    }
+
+    .searchFiltersFilter {
+        margin-left: 17px;
+    }
+
+    .searchHeaderSubtitle {
+        font-size: 17px;
+    }
+
+    .hosting {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+
+    .hostingMain {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hostingPopular {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto repeat(3, 9rem);
+    }
+
+    
+}
+
+
+
+

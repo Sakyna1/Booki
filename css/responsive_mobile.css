@@ -1,0 +1,162 @@
+@media screen and (max-width: 768px) {
+
+    .main {
+        padding: 0px;
+    }
+
+    .search {
+        padding: 0 1rem;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .headerImg {
+        padding: 0 7.5rem;
+    }
+
+    .menu a {
+    width: 50%;
+    text-align: center;
+    border-bottom: 3px solid #f2f2f2;
+    }
+
+    .searchHeaderTitle {
+        font-size: 21px;
+        margin-top: 26px;
+        margin-left: 10px;
+    }
+
+    .searchHeaderSubtitle {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .searchForm {
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .searchFormSubmitinput {
+        padding: 0px;
+        border-radius: 1rem 1rem 1rem 1rem;
+    }
+
+    .searchResult {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .searchFiltersTitle {
+        margin-left: 10px;
+    }
+
+    .searchFilters {
+        display: block;
+    }
+
+    .searchFiltersFilterTitle {
+        font-size: 14px;
+    }
+
+    .searchFiltersFilter {
+        margin-left: 10px;
+        margin-right: 0px;
+        display: inline-flex;
+    }
+
+    .menu {
+        margin-right: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+        border-top-color: transparent;
+    }
+
+    .menu :hover {
+        border-bottom: 3px solid #0065fc;
+        border-top-color: transparent;
+        color: #0065fc;
+        padding-bottom: 14px; 
+    }
+
+    nav a {
+        padding: 0;
+        padding-bottom: 14px;
+    }
+
+    .button_desktop{
+        display: none;
+    }
+
+    .button_mobile{
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .hostingMain {
+        order: 2;
+        grid-template-columns: 1fr;
+        background-color: transparent;
+    }
+
+    .hostingPopular {
+        order: 1;
+        border-radius: 0px;
+    }
+
+    .hosting {
+        grid-template-columns: 1fr;
+         row-gap: 2rem;
+    }
+
+    .hostingMainCard {
+        box-sizing: inherit;
+    }
+
+    .hostingMainCardFigureCaptionTitleB {
+        margin: 0.25rem 0.75rem 0 0.75rem
+    }
+    
+    .hostingPopularWrapcontentWrapimgImg {
+        position: inherit;
+    }
+
+    .footerColumnwrapper {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .footerColumnwrapperColumn {
+        width: 100%;
+        padding: 0;
+        margin: 1rem 0;
+        margin-top: 0px;
+    }
+
+    .activity {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 10px;
+    }
+    
+    .activityCard {
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    .activityCardWrapimgImg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway-bold';
+    src: url('raleway/Raleway-Bold.ttf');
+}
+
+.main {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 2.5rem;
+    border-top: 3px solid transparent;
+}
+
+body{
+    margin: 0px;
+}
+
+nav a:hover {
+    border-top-color: #0065fc;
+    color: #0065fc;
+}
+
+.logo {
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.headerImg {
+    height: 66.813px;
+    padding: 0 2rem;
+    margin-top: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 258px;
+    margin-right: 52px;
+    font-family: "Raleway";    
+}
+
+.searchHeaderTitle {
+    margin-bottom: 0.5rem;
+    font-family: "Raleway-bold";
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-weight: bold;
+}
+
+.searchHeaderSubtitle {
+    margin-top: 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {
+    font-family: "Raleway", "Sans-serif";
+}
+
+.searchFromWrapicon {
+    background-color: #f2f2f2;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+}
+
+.searchForm {
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.searchFormSearchInput {
+    border-right: none;
+    border-left: none;
+    border-top: #f2f2f2 1px solid;
+    border-bottom: #f2f2f2 1px solid;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    width: 14rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Raleway-bold", "Sans-serif";
+}
+
+.searchFormSubmitinput {
+    background-color: #0065fc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0 1.5rem;
+    font-family: "Raleway", "Sans-serif";
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.searchFiltersFilter {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    border: 2px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-weight: bold;
+    margin-left: 33px;
+}
+
+.searchResult {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.searchFiltersFilterWrapicon {
+    background-color: #deebff;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    min-height: 3.5rem;
+    min-width: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -2px;
+}
+
+.searchFiltersTitle {
+    margin-top: 11px;
+    font-family: "Raleway-bold";
+}
+
+.searchFiltersFilterTitle {
+    margin: 0 1rem;
+    font-family: "Raleway-bold";
+}
+
+.searchFilters {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.searchResultWrapicon {
+    height: 2rem;
+    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.fa-money-bill-wave:before {
+    color: blue;
+}
+
+.fa-child:before {
+    color: blue;
+}
+
+.fa-heart:before {
+    color: blue;
+}
+
+.fa-dog:before {
+    color: blue;
+}
+
+.fa-info:before {
+    color: blue;
+}
+
+.searchFormSubmitinputIcon {
+    display: none !important;
+}
+.searchFiltersCol{
+    display: flex;
+}
+.button_desktop{
+    display: block;
+}
+.button_mobile{
+    display: none;
+}
+
+.hosting {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 6fr 3fr;
+}
+
+.hostingMain {
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    background-color: #f2f2f2;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.hostingMainHeader {
+    grid-column: 1/-1;
+}
+
+.hostingMainHeaderTitle {
+    margin: 0px;
+}
+
+.hostingMainCard {
+    background-color: white;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.hostingMainCardFigure {
+    margin: 0px;
+
+}
+
+.hostingMainCardFigureImg {
+    height: 7rem;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.hostingMainCardFigureCaptionTitle {
+    margin: 0.25rem 1.75rem 0 0.75rem;
+}
+
+.hostingMainCardFigureCaptionTitleA {
+    margin: 0.25rem 0.75rem 0 0.75rem;
+}
+
+.hostingMainCardDesc {
+    margin: 0.25rem 0.75rem 0.25rem 0.75rem
+}
+
+.hostingMainCardDescPrice {
+    font-weight: bold;
+}
+
+.hostingMainCardGrade {
+    margin: 0 0.75rem 0.25rem 0.75rem;
+}
+
+.hostingMainCardGradeIcon[data-active=true] {
+    color: #0065FC;
+}
+
+.hostingMainCardGradeIcon[data-active=false] {
+    color: #d9d9d9;
+}
+
+article a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hostingMainViewmore {
+    font-weight: bold;
+}
+
+div a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hostingPopular {
+    display: grid;
+    row-gap: 2rem;
+    align-items: start;
+    grid-template-rows: auto repeat(3, 1fr);
+}
+
+.hostingPopularTitle {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hostingPopular {
+    background-color: #F2F2F2;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+
+.hostingPopularWrapcontent {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+    overflow: auto;
+} 
+
+.hostingPopularWrapcontentWrapimg {
+    position: relative;
+    min-height: 100%;
+    width: 33%;
+    min-width: 33%;
+    max-width: 33%;
+}
+
+.hostingPopularWrapcontentWrapimgImg {
+    border-radius: 1rem 0 0 1rem;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hostingPopularWrapcontentContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.hostingPopularWrapcontentContentWhitespace {
+    flex: 1;    
+}
+
+.hostingMainCardfigureImg {
+    height: 7rem;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.hostingMainCardFigureCaptionTitleB {
+    margin: 0.25rem 1.75rem 0 0.75rem;
+}
+
+.activity {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+    display: grid;
+    column-gap: 2rem;
+    margin: 4rem 0;
+} 
+
+.activityTitle {
+    grid-column: 1/-1;
+}
+
+.activityCard1st {
+    grid-row: 2/7;
+    grid-column: 1/2;
+}
+
+.activityCard {
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+}
+
+.activityCardWrapimg {
+    position: relative;
+    flex: 1;
+}
+
+.activityCardWrapimgImg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.activityCardTitle {
+    margin: 1.2rem 1.5rem;
+}
+
+.activityCard2nd {
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+
+.activityCard3rd {
+    grid-column: 3/4;
+    grid-row: 2/7;
+}
+
+.activityCard4th {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.activityCard5th {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+
+.activityCard6th {
+    grid-column: 4/5;
+    grid-row: 4/7;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+.footerColumnwrapper {
+    display: flex;
+    max-width: 100%;
+    width: 1520px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.footerColumnwrapperColumn {
+    width: 30%;
+    padding: 2rem 2rem;
+}
+
+.footerColumnwrapperColumnLink {
+    display: block;
+    margin: 1rem 0;
+}
+
